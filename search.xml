@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Game Maker&#39;s Toolkit笔记</title>
+    <url>/2021/08/18/Game-Maker-s-Toolkit%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="Deconstructing-Ori-and-the-Blind-Forest’s-Best-Bit"><a href="#Deconstructing-Ori-and-the-Blind-Forest’s-Best-Bit" class="headerlink" title="Deconstructing Ori and the Blind Forest’s Best Bit"></a>Deconstructing Ori and the Blind Forest’s Best Bit</h1><ul>
+<li>需要大量重试的游戏在复活的时候尽量不要读条，会打断沉浸感。</li>
+<li>需要大量重试的游戏在复活的时候不要断BGM（例如Celeste和奥日)，让玩家觉得失败是被设计好的一部分。</li>
+<li>在最终挑战中如果不设计中途存档点（奥日最终水位上涨的BOSS大逃亡），在难度不过分的前提下可以提升玩家的成就感。</li>
+<li>不要在游戏中设计过多的能力，对玩家是心智负担（奥日）。</li>
+<li>类恶魔城的地图设计有时候会让回头路过多，设计得精巧容易让玩家有重复感。</li>
+</ul>
+<h1 id="Depth-Mastery-and-Vanquish"><a href="#Depth-Mastery-and-Vanquish" class="headerlink" title="Depth, Mastery, and Vanquish"></a>Depth, Mastery, and Vanquish</h1><ul>
+<li>好的游戏通过让不同水平的玩家都能获得乐趣而拥有较长的寿命。</li>
+<li>白金工作室的游戏新手和大师的游玩体验有很大的区分度。主要体现在玩家是否能通过游玩的过程来表达自己。</li>
+<li>Vanguish在这方面不太好，因为大师和新手在玩起来的时候，看起来差不多。而且它的分数没有rank系统，对玩家没有实际意义。</li>
+<li>COD Online中换弹时切近战可以加速换弹，看起来像是一个bug，但是玩家会让它解读成一个进阶技巧。</li>
+</ul>
+<h1 id="Adaptive-Soundtracks-in-Games"><a href="#Adaptive-Soundtracks-in-Games" class="headerlink" title="Adaptive Soundtracks in Games"></a>Adaptive Soundtracks in Games</h1><ul>
+<li>在游戏中随着场景的切换改变音乐可以提升体验。常见的做法是UNCHARTED中那样进入战斗时音乐变得紧张，结束时音乐切换回去。</li>
+<li>塞尔达传说和Super Mario使用了更高级的做法：同一种音乐用不同的乐器演奏，随着场景的变化旋律不变，但是音乐的元素发生变化。</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>Note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/18/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
