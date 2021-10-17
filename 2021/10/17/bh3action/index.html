@@ -28,7 +28,6 @@
 <meta property="og:description" content="怎样的动作游戏玩起来“爽”——从《崩坏3》说起在一般的认知里，动作游戏具有战斗爽快、演出华丽、紧张刺激等特点。但随之而来的是操作复杂、出招表冗长、难以上手，因此让不少玩家望而却步。《崩坏3》作为一款动作类的手游（支持全平台），在目标客户群收获了惊人的成绩，一度月流水突破2亿。它不是第一款移动平台的动作手游，但是用属于自己的方式赢得了玩家的喜爱。本文将以《崩坏3》游戏的基础角色“琪亚娜”出发，通过第">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE1%E7%90%AA%E4%BA%9A%E5%A8%9C%E9%9D%99%E6%AD%A2%E5%90%AF%E5%8A%A8.gif">
-<meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE10%E5%88%B9%E8%BD%A6%E4%B8%AD%E8%BD%AC%E8%BA%AB.gif">
 <meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE2%E9%A9%AC%E9%87%8C%E5%A5%A5%E9%9D%99%E6%AD%A2%E5%90%AF%E5%8A%A8.gif">
 <meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE3%E8%B7%91%E6%AD%A5%E6%8E%A5%E5%88%B9%E8%BD%A6.gif">
 <meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE4%E5%88%B9%E8%BD%A6%E6%8E%A5%E5%A5%94%E8%B7%91.gif">
@@ -59,7 +58,7 @@
 <meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE29%E5%8E%9F%E5%9C%B0%E5%8F%97%E5%87%BB.gif">
 <meta property="og:image" content="http://example.com/images/bh3action/bh3action_%E5%9B%BE30%E6%97%B6%E7%A9%BA%E6%96%AD%E8%A3%82%E7%A6%BB%E8%B0%B1%E7%9A%84%E5%AE%BD%E6%9D%BE%E5%88%A4%E5%AE%9A.gif">
 <meta property="article:published_time" content="2021-10-17T08:36:42.000Z">
-<meta property="article:modified_time" content="2021-10-17T12:05:59.648Z">
+<meta property="article:modified_time" content="2021-10-17T12:06:22.735Z">
 <meta property="article:author" content="Zecx">
 <meta property="article:tag" content="Game Design">
 <meta name="twitter:card" content="summary">
@@ -236,7 +235,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-10-17 16:36:42 / Modified: 20:05:59" itemprop="dateCreated datePublished" datetime="2021-10-17T16:36:42+08:00">2021-10-17</time>
+              <time title="Created: 2021-10-17 16:36:42 / Modified: 20:06:22" itemprop="dateCreated datePublished" datetime="2021-10-17T16:36:42+08:00">2021-10-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -266,7 +265,6 @@
 <h1 id="运动"><a href="#运动" class="headerlink" title="运动"></a>运动</h1><p>谈论动作游戏自然无法脱离人物的移动操作。在《崩坏3中》玩家可执行的移动类操作主要包括奔跑、转身与回避，这三者的设计都体现了一个词——速度感。</p>
 <h2 id="奔跑"><a href="#奔跑" class="headerlink" title="奔跑"></a>奔跑</h2><p>琪亚娜的奔跑动作一共分3个阶段，分别是启动加速、高速奔跑、减速停止(刹车)。在启动阶段，她从静止开始到的动作只维持4帧，约等于0.06秒，远低于人类的一般反应速度0.2-0.4秒。所以在操作人物进入跑步时几乎感受不到琪亚娜的起步加速过程，非常敏捷。作为对比，3D超级马里奥中主角的起步加速阶段持续了9帧，给人的直观感受就是马里奥身形较为笨重，符合他的人设形象。</p>
 <p><img src="/images/bh3action/bh3action_%E5%9B%BE1%E7%90%AA%E4%BA%9A%E5%A8%9C%E9%9D%99%E6%AD%A2%E5%90%AF%E5%8A%A8.gif" alt="图1 琪亚娜静止启动"></p>
-<p><img src="/images/bh3action/bh3action_%E5%9B%BE10%E5%88%B9%E8%BD%A6%E4%B8%AD%E8%BD%AC%E8%BA%AB.gif" alt="图1 琪亚娜静止启动"></p>
 <p><img src="/images/bh3action/bh3action_%E5%9B%BE2%E9%A9%AC%E9%87%8C%E5%A5%A5%E9%9D%99%E6%AD%A2%E5%90%AF%E5%8A%A8.gif" alt="图2 马里奥静止启动"></p>
 <p>在进入高速奔跑阶段后，如果停止按键，琪亚娜将开始减速停止。她会将当前奔跑的支撑脚固定后，用另一条腿作一个刹车动作。尽管整个过程会持续36帧，但从约第10帧开始琪亚娜是位置就不发生任何变化了。后续的动作更多是为了显得刹车的惯性符合人类直觉。而更重要的是在琪亚娜减速的过程中，如果玩家重新按下移动键，将会使她跳过启动加速的动作片段，直接进入高速奔跑的状态，提高了玩家对角色的移动可控性，并营造了琪亚娜这个角色迅捷的特点。即使关卡设计要求角色间歇移动，玩家也不会因为反复的减速-加速过程而感到琪亚娜的动作有任何停滞。<br><img src="/images/bh3action/bh3action_%E5%9B%BE3%E8%B7%91%E6%AD%A5%E6%8E%A5%E5%88%B9%E8%BD%A6.gif" alt="图3 奔跑接刹车"><br><img src="/images/bh3action/bh3action_%E5%9B%BE4%E5%88%B9%E8%BD%A6%E6%8E%A5%E5%A5%94%E8%B7%91.gif" alt="图4 刹车接奔跑"></p>
 <p>此外值得一提的是，《崩坏3》中的摄像机并不是背随视角，角色的横向移动会随着视点作圆周运动。而关卡环境的外围设有较大面积的空气墙，玩家在碰撞空气墙时会沿着墙体滑行。这使得哪怕玩家胡乱操作，也无法被地图的任何死角卡住而不能移动。这一方面保证了玩家在移动时去不了不符合游戏设计者意图的目的地，另一方面塑造了一种“只要玩家在操作，角色就可以一直动下去”的气氛，增强了游戏的动感。</p>
