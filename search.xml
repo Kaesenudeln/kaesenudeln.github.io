@@ -619,7 +619,10 @@
   <entry>
     <title>零碎的资料整理</title>
     <url>/2021/08/26/bhnc/</url>
-    <content><![CDATA[<h1 id="怪物猎人"><a href="#怪物猎人" class="headerlink" title="怪物猎人"></a>怪物猎人</h1><h2 id="无敌帧"><a href="#无敌帧" class="headerlink" title="无敌帧"></a>无敌帧</h2><p>耐力槽减少的那一帧开始计算无敌帧，真正掉血的前一帧是攻击判定的那一帧</p>
+    <content><![CDATA[<h1 id="本文为零碎资料整理"><a href="#本文为零碎资料整理" class="headerlink" title="本文为零碎资料整理"></a>本文为零碎资料整理</h1><span id="more"></span>
+
+
+<h1 id="怪物猎人"><a href="#怪物猎人" class="headerlink" title="怪物猎人"></a>怪物猎人</h1><h2 id="无敌帧"><a href="#无敌帧" class="headerlink" title="无敌帧"></a>无敌帧</h2><p>耐力槽减少的那一帧开始计算无敌帧，真正掉血的前一帧是攻击判定的那一帧</p>
 <h2 id="翔虫系统"><a href="#翔虫系统" class="headerlink" title="翔虫系统"></a>翔虫系统</h2><h3 id="为什么要有翔虫"><a href="#为什么要有翔虫" class="headerlink" title="为什么要有翔虫"></a>为什么要有翔虫</h3><h4 id="使用特点"><a href="#使用特点" class="headerlink" title="使用特点"></a>使用特点</h4><ol>
 <li>下落时使用翔虫跳跃会重置下落距离</li>
 <li>直接用冷却6秒，瞄准发射8秒</li>
