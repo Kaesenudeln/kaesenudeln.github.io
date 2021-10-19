@@ -3,7 +3,10 @@
   <entry>
     <title>Unity Study Notes</title>
     <url>/2021/08/18/Unity-Study-Notes/</url>
-    <content><![CDATA[<h1 id="2D-Game"><a href="#2D-Game" class="headerlink" title="2D Game"></a>2D Game</h1><ul>
+    <content><![CDATA[<h1 id="Unity-学习笔记"><a href="#Unity-学习笔记" class="headerlink" title="Unity 学习笔记"></a>Unity 学习笔记</h1><span id="more"></span>
+
+
+<h1 id="2D-Game"><a href="#2D-Game" class="headerlink" title="2D Game"></a>2D Game</h1><ul>
 <li>加入素材后要记得修改pixel per unit</li>
 <li>背景可以拖到场景中，但是角色不建议这么做。因为角色后期可能会频繁的切换，创建一个Spirite然后置入component中更有灵活性</li>
 <li>Sprite的刚体加Rigidbody2D，碰撞加Collider2D。Tilemap的碰撞加Tilemap Collider2D，会自动给每一个格子加碰撞体积</li>
@@ -21,7 +24,10 @@
   <entry>
     <title>Unreal Engine Notes</title>
     <url>/2021/08/20/Unreal-Engine-Notes/</url>
-    <content><![CDATA[<p>选中物体的时候按End键可以让物体触底（比如说让玩家出生点落到地面上）</p>
+    <content><![CDATA[<h1 id="Unreal-Engine-学习笔记"><a href="#Unreal-Engine-学习笔记" class="headerlink" title="Unreal Engine 学习笔记"></a>Unreal Engine 学习笔记</h1><span id="more"></span>
+
+
+<p>选中物体的时候按End键可以让物体触底（比如说让玩家出生点落到地面上）</p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -34,7 +40,10 @@
   <entry>
     <title>《游戏数值战斗设计》笔记</title>
     <url>/2021/08/20/%E3%80%8A%E6%B8%B8%E6%88%8F%E6%95%B0%E5%80%BC%E6%88%98%E6%96%97%E8%AE%BE%E8%AE%A1%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h2 id="角色的一二级属性"><a href="#角色的一二级属性" class="headerlink" title="角色的一二级属性"></a>角色的一二级属性</h2><p>游戏中一般角色的属性分一级和二级属性，以常规MMORPG为案例，一级属性如下。<br>·力量：能够增加角色的物理攻击力、物理防御力、生命值。<br>·智力：能够增加角色的魔法攻击力、魔法防御力、魔法值。<br>·敏捷：能够增加角色的命中、闪避。<br>·精神：能够增加角色的暴击、抗暴击。<br>·体质：能够增加角色的生命值、物理防御力、魔法防御力。<br>再来看下二级属性。<br>·生命值：衡量角色目前健康情况的数值，生命值的当前值小于等于0后玩家会死亡。<br>·魔法值：角色释放技能的消耗数值，魔法值的当前值小于技能消耗数值则不能释放技能。<br>·物攻：攻击结算的一种类型，对应物防来结算。<br>·物防：防御结算的一种类型，对应物攻来结算。<br>·魔攻：攻击结算的一种类型，对应魔防来结算。<br>·魔防：防御结算的一种类型，对应魔攻来结算。<br>·命中：衡量玩家击中目标的判断数值，对应闪避来结算。<br>·闪避：衡量玩家躲避攻击的判断数值，对应命中来结算。<br>·暴击：衡量玩家攻击产生暴击情况的判断数值，对应抗暴击来结算。<br>·抗暴击：衡量玩家抵抗暴击情况的判断数值，对应暴击来结算。</p>
+    <content><![CDATA[<h1 id="《游戏数值战斗设计》读书笔记"><a href="#《游戏数值战斗设计》读书笔记" class="headerlink" title="《游戏数值战斗设计》读书笔记"></a>《游戏数值战斗设计》读书笔记</h1><span id="more"></span>
+
+
+<h2 id="角色的一二级属性"><a href="#角色的一二级属性" class="headerlink" title="角色的一二级属性"></a>角色的一二级属性</h2><p>游戏中一般角色的属性分一级和二级属性，以常规MMORPG为案例，一级属性如下。<br>·力量：能够增加角色的物理攻击力、物理防御力、生命值。<br>·智力：能够增加角色的魔法攻击力、魔法防御力、魔法值。<br>·敏捷：能够增加角色的命中、闪避。<br>·精神：能够增加角色的暴击、抗暴击。<br>·体质：能够增加角色的生命值、物理防御力、魔法防御力。<br>再来看下二级属性。<br>·生命值：衡量角色目前健康情况的数值，生命值的当前值小于等于0后玩家会死亡。<br>·魔法值：角色释放技能的消耗数值，魔法值的当前值小于技能消耗数值则不能释放技能。<br>·物攻：攻击结算的一种类型，对应物防来结算。<br>·物防：防御结算的一种类型，对应物攻来结算。<br>·魔攻：攻击结算的一种类型，对应魔防来结算。<br>·魔防：防御结算的一种类型，对应魔攻来结算。<br>·命中：衡量玩家击中目标的判断数值，对应闪避来结算。<br>·闪避：衡量玩家躲避攻击的判断数值，对应命中来结算。<br>·暴击：衡量玩家攻击产生暴击情况的判断数值，对应抗暴击来结算。<br>·抗暴击：衡量玩家抵抗暴击情况的判断数值，对应暴击来结算。</p>
 <table>
 <thead>
 <tr>
